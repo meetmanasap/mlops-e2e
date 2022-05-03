@@ -3,8 +3,8 @@
     "repoType": "git",
     "git": {
         "githubConnectionArn": "arn:aws:codestar-connections:us-east-1:042512435063:connection/7d99d70b-65a9-412a-86aa-2b70c4c074f9",
-        "githubRepoOwner": "MyTest",
-        "githubRepoName": "mlopsGit"
+        "githubRepoOwner": "meetmanasap",
+        "githubRepoName": "mlops-e2e"
     },
     "modelEndpointExportNamePrefix": "ModelHostingEndpoint",
     "ipPermitList": [
