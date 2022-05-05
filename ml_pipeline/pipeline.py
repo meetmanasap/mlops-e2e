@@ -256,7 +256,7 @@ def get_pipeline(
         model_data=step_train.properties.ModelArtifacts.S3ModelArtifacts,
     )
 
-    print("********model_data in SKLEARN", model_data)
+   
 
     inference_model = Model(
         image_uri=sagemaker.image_uris.retrieve(
