@@ -246,9 +246,8 @@ def get_pipeline(
         framework_version="0.23-1",
         py_version="py3",
         sagemaker_session=sagemaker_session,
-        model_data=step_process.properties.ProcessingOutputConfig.Outputs[
-                    "model"
-                ].S3Output.S3Uri,
+        model_data=step_train.properties.ModelArtifacts.S3ModelArtifacts
+      
     )
 
     inference_model = Model(
